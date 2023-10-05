@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: Anton;
+   src: url('Anton-Regular.ttf') format('woff');
+}
+header {
+    background: #51344D; 
+    position: sticky;
+    top: 0;
+    z-index: 1;;
+}
+header h1 {
+   color: #E7EBC5;
+   font-family: Anton;
+   background-color: #A78682;
+   padding: 15px;
+}
+
+header a {
+   color: #E7EBC5;
+   text-transform: capitalize;
+}
+header a:hover {
+   text-decoration: none;
+   color: #A78682;
+   transition: all 0.2s ease-in-out;
+}
+header ul {
+   padding: 15px 0;
+   margin: 0;
+}
+header li {
+   display: inline;
+   padding: 10px;
+   font-size: 25px;
+}
+
+main {
+   background-color: #989788;
+}
+
+main .summ p {
+   font-size: 18px;
+   background-color: #A78682;
+   border-radius: 25% ;
+   padding: 35px;
+   margin: 23px 0px;
+}
+
+main h2 {
+   color: #E7EBC5;
+   background-color: #A78682;
+   padding: 15px;
+}
+
+main h3 {
+   background-color: #A78682;
+   padding: 4px;
+   border-radius: 10%
+}
+
+.hero img{
+   width: 100%;
+}
+
+footer {
+   clear: both;
+   color: #E7EBC5;    
+   background: #6F5060;
+   font-size: 0.7em;  
+   font-style: normal;
+   width: 100%;
+}
+
+footer nav ul, footer section {
+   float: right;
+}
+footer section {
+   float: left;
+   padding: 5px 30px;
+}
+footer ul {
+   padding: 15px 0;
+   text-align: right;
+}
+footer li {
+   display: inline;
+   padding: 10px;
+   font-size: 15px;
+}
+
+footer a {
+   color: #E7EBC5;
+   text-decoration: none;
+}
+footer a:hover {
+   color: #A78682;
+   transition: all 0.4s ease-in-out;
+   text-decoration: none;
+}
+footer::after {
+   display: table;
+   content: "";
+   clear: both;
+}
+footer p {
+   color: #E7EBC5;
+   font-size: 25px;
+   padding-top: 15px;
+}
+footer span {
+   font-size: 23px;
+}
